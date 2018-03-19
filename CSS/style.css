@@ -1,0 +1,485 @@
+/*********************************************************************************************/
+/*********************************************************************************************/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #261e17;
+    height: 1000px;
+}
+
+#content{
+    background-color: #261e17;
+}
+
+
+/*********************************************************************************************/
+/*********************************** top *****************************************************/
+#top{
+    height: 40px;
+}
+
+#top a{
+    text-decoration: none;
+    color: gray;
+}
+
+#top a:hover{
+    text-decoration: underline;
+}
+
+#top #search{
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+#top #user_area{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+
+/*********************************************************************************************/
+/********************************* header ****************************************************/
+header{
+    height: 70px;
+}
+
+header img{
+    width: 200px;
+    height: 60px;
+    float: left;
+    margin-left: 200px;
+}
+
+header nav{
+    float: left;
+    margin-left: 300px;
+}
+
+/************ level 1 ***********************/
+
+header nav #main_nav{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+header nav #main_nav li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #ff0068;
+}
+
+header nav #main_nav li a{
+    text-decoration: none;
+    color: #00c5e5;
+}
+
+header nav #main_nav li a:hover{
+    color: #ff0068;
+}
+
+
+/************ level 2 ***********************/
+
+
+header nav #main_nav li:hover >ul{
+    display: block;
+    position: absolute;
+    background-color: #261e17;
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+
+
+header nav #main_nav li ul{
+    display: none;
+    border-radius: 10px;
+}
+
+header nav #main_nav li ul li{
+    display: block;
+    width: 150px;
+}
+
+header nav #main_nav li ul li a{
+    display: block;
+    width: 150px;
+}
+
+
+
+/*********************************************************************************************/
+/*********************************** skider **************************************************/
+#slider{
+    height: 400px;
+}
+
+
+#slider .slider_block{
+    width: 300px;
+    height: 250px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: 10px;
+}
+
+#slider .slider_block h1{
+    text-align: left;
+    margin-left: 80px;
+    font-family: monotype-corsiva;
+    font-size: 40px;
+}
+
+#slider .slider_block p{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -20px;
+    width: 200px;
+}
+
+#slider .slider_block a{
+    float: right;
+    margin-right: 100px;
+    background-color: #261e17;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+#slider .slider_block img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/************** 1 ***************/
+#slider #slider_design{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+/************** 2 ***************/
+#slider #slider_html{
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+
+
+/************** 3 ***************/
+#slider #slider_cms{
+    margin-left: -80px;
+}
+
+
+
+/************** 4 ***************/
+#slider #slider_seo{
+    margin-top: 60px;
+    margin-left: -80px;
+}
+
+
+
+/*********************************************************************************************/
+/************************************ work ***************************************************/
+#work{
+    height: 320px;
+    margin-left: 200px;
+}
+
+
+#work h1{
+    font-family: monotype-corsiva;
+    color: white;
+}
+
+#work a{
+    float: left;
+    margin-top: 90px;
+}
+
+#work #images{
+    height: 210px;
+    padding: 20px;
+    float: left;
+    background-color: #3d2f25;
+}
+
+
+#work  #arrow_left{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: -40px;
+    float: left;
+}
+
+#work #arrow_right{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#work .images_block{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 5px solid #00c5e5;
+    margin-right: 20px;
+}
+
+
+#work .images_block:hover{
+    border: 5px solid #ff0068;
+}
+
+
+
+/*********************************************************************************************/
+/******************************** more_details ***********************************************/
+#more_details{
+    height: 280px;
+    margin-top: 20px;
+}
+
+/***************************************/
+#more_details #about{
+    width: 450px;
+    height: 280px;
+    float: left;
+    margin-left: 200px;
+}
+
+
+#more_details h1{
+    font-family: monotype-corsiva;
+    color: #00c5e5;
+}
+
+#more_details #about p{
+    color: gray;
+}
+
+#more_details a{
+    color: white;
+    text-decoration: none;
+}
+
+#more_details a:hover{
+    color: #ff0068;
+}
+
+/***************************************/
+#more_details #web{
+    width: 450px;
+    height: 280px;
+    float: left;
+    margin-left: 30px;
+}
+
+
+#more_details #web #solution_img{
+    height: 130px;
+}
+
+
+
+#more_details #web #solution_img .solution_img_block{
+    width: 180px;
+    height: 40px;
+    float: left;
+    background-color: #3d2f25;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+#more_details #web #solution_img .solution_img_block img{
+    width:  25px;
+    height: 30px;
+    float: left;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#more_details #web #solution_img .solution_img_block a{
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: white;
+}
+
+#more_details #web #solution_img .solution_img_block a:hover{
+    color: #00c5e5;
+}
+
+
+/*********************************************************************************************/
+/************************************** bottom ***********************************************/
+#bottom{
+    height: 380px;
+    background-color: #3d2f25;
+    padding-top: 20px;
+}
+
+#bottom h1{
+    font-family: monotype-corsiva;
+    font-size: 35px;
+    color: #261e17;
+    font-weight: bold;
+}
+
+/***************************************/
+#bottom #form{
+    float: left;
+    width: 450px;
+    height: 350px;
+    margin-left: 200px;
+}
+
+
+#bottom #form form input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: #261e17;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#bottom #form form input[type="email"]{
+    margin-left: 15px;
+}
+
+#bottom #form form textarea{
+    height: 130px;
+    width: 428px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    background-color: #261e17;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+#bottom #form form input[type="button"]{
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #261e17;
+    background-color: #8e6e57;
+    font-weight: bolder;
+    
+}
+#bottom #form form input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #261e17;
+    color: white;
+}
+
+
+
+/***************************************/
+#bottom #services{
+    width: 230px;
+}
+
+
+/***************************************/
+#bottom #elsewhere{
+    width: 150px;
+}
+
+
+
+#bottom .bottom_block{
+    float: left;
+    margin-left: 30px;
+}
+
+
+#bottom .bottom_block ul{
+    margin-left: -35px;
+}
+
+#bottom .bottom_block ul li{
+    list-style: none;
+    border-bottom: 1px solid #261e17;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#bottom .bottom_block ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+#bottom .bottom_block ul li a:hover{
+    color: #00c5e5;
+    cursor: pointer;
+}
+
+
+
+/*********************************************************************************************/
+/************************************** fotter ***********************************************/
+
+footer{
+    height: 30px;
+}
+
+footer p{
+    text-align: center;
+    color: #8e6e57;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
